@@ -1,0 +1,49 @@
+name: Update Developer Profile Dashboard
+
+on:
+  schedule:
+    # Run once every 24 hours at midnight UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allows manual trigger from Actions tab
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/update-profile.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-telemetry:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python Runtime
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: ''
+
+      - name: Generate Dynamic SVG Dashboard Assets
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/generate_dashboard.py
+
+      - name: Commit and Push Updated Dashboard Assets
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add assets/generated/*.svg
+          if git diff --staged --quiet; then
+            echo "Dashboard metrics are already up to date. No changes to commit."
+          else
+            git commit -m "chore(telemetry): auto-refresh dashboard telemetry and statistics [skip ci]"
+            git push origin main
+          fi

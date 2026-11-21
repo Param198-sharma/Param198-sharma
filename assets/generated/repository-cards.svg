@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 320" width="100%" height="320" fill="none">
+  <defs>
+    <linearGradient id="repo-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="100%" stop-color="#060811"/>
+    </linearGradient>
+    <filter id="card-hover" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="2" y="2" width="916" height="316" rx="14" fill="url(#repo-bg)" stroke="#1e293b" stroke-width="1.2"/>
+
+  <!-- Section Header -->
+  <g transform="translate(28, 28)">
+    <circle cx="8" cy="8" r="4" fill="#a855f7"/>
+    <text x="22" y="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#f8fafc">FEATURED SYSTEMS ARCHITECTURE &amp; REPOSITORIES</text>
+    <text x="860" y="12" font-family="'SF Mono', Consolas, monospace" font-size="11" fill="#a855f7" text-anchor="end">PRODUCTION ARTIFACTS</text>
+  </g>
+
+  <!-- 3 Project Cards Side by Side -->
+  <!-- Card 1 -->
+  <g transform="translate(28, 58)">
+    <rect x="0" y="0" width="276" height="236" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <!-- Tag -->
+    <rect x="16" y="16" width="124" height="20" rx="4" fill="#064e3b" stroke="#059669" stroke-width="0.8"/>
+    <text x="24" y="30" font-family="'SF Mono', Consolas, monospace" font-size="9" font-weight="700" fill="#6ee7b7">MISSION CRITICAL</text>
+    <!-- Title -->
+    <text x="16" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#38bdf8">Wired_Brains-Anvathon-</text>
+    <text x="16" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#cbd5e1">DisasterReady India</text>
+    <!-- Description -->
+    <text x="16" y="106" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#94a3b8">
+      <tspan x="16" dy="0">National real-time disaster</tspan>
+      <tspan x="16" dy="16">management, spatial decision</tspan>
+      <tspan x="16" dy="16">support &amp; citizen relief engine</tspan>
+      <tspan x="16" dy="16">for emergency coordination.</tspan>
+    </text>
+    <!-- Language & Stars -->
+    <g transform="translate(16, 198)">
+      <circle cx="6" cy="6" r="4" fill="#3178c6"/>
+      <text x="16" y="10" font-family="'SF Mono', Consolas, monospace" font-size="10" fill="#94a3b8">TypeScript</text>
+      <circle cx="120" cy="6" r="3" fill="#fbbf24"/>
+      <text x="130" y="10" font-family="'SF Mono', Consolas, monospace" font-size="10" fill="#94a3b8">⭐ Active</text>
+    </g>
+  </g>
+
+  <!-- Card 2 -->
+  <g transform="translate(322, 58)">
+    <rect x="0" y="0" width="276" height="236" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <!-- Tag -->
+    <rect x="16" y="16" width="112" height="20" rx="4" fill="#3b0764" stroke="#7e22ce" stroke-width="0.8"/>
+    <text x="24" y="30" font-family="'SF Mono', Consolas, monospace" font-size="9" font-weight="700" fill="#d8b4fe">DEFENSE &amp; AI</text>
+    <!-- Title -->
+    <text x="16" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#a855f7">TRINETRA_TEAM_KAVACH</text>
+    <text x="16" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#cbd5e1">Cyber-Threat Telemetry</text>
+    <!-- Description -->
+    <text x="16" y="106" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#94a3b8">
+      <tspan x="16" dy="0">High-concurrency cyber telemetry,</tspan>
+      <tspan x="16" dy="16">surveillance platform &amp; threat</tspan>
+      <tspan x="16" dy="16">intelligence detection suite for</tspan>
+      <tspan x="16" dy="16">national cybersecurity hackathons.</tspan>
+    </text>
+    <!-- Language & Stars -->
+    <g transform="translate(16, 198)">
+      <circle cx="6" cy="6" r="4" fill="#f7df1e"/>
+      <text x="16" y="10" font-family="'SF Mono', Consolas, monospace" font-size="10" fill="#94a3b8">JavaScript / Py</text>
+      <circle cx="130" cy="6" r="3" fill="#fbbf24"/>
+      <text x="140" y="10" font-family="'SF Mono', Consolas, monospace" font-size="10" fill="#94a3b8">⭐ 1 Star</text>
+    </g>
+  </g>
+
+  <!-- Card 3 -->
+  <g transform="translate(616, 58)">
+    <rect x="0" y="0" width="276" height="236" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <!-- Tag -->
+    <rect x="16" y="16" width="124" height="20" rx="4" fill="#172554" stroke="#1d4ed8" stroke-width="0.8"/>
+    <text x="24" y="30" font-family="'SF Mono', Consolas, monospace" font-size="9" font-weight="700" fill="#93c5fd">RADAR ANALYTICS</text>
+    <!-- Title -->
+    <text x="16" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#38bdf8">Class_Radar_Minor</text>
+    <text x="16" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#cbd5e1">Academic Radar Engine</text>
+    <!-- Description -->
+    <text x="16" y="106" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#94a3b8">
+      <tspan x="16" dy="0">Intelligent classroom monitoring,</tspan>
+      <tspan x="16" dy="16">automated student tracking radar</tspan>
+      <tspan x="16" dy="16">and institutional analytics engine</tspan>
+      <tspan x="16" dy="16">built with React &amp; TypeScript.</tspan>
+    </text>
+    <!-- Language & Stars -->
+    <g transform="translate(16, 198)">
+      <circle cx="6" cy="6" r="4" fill="#3178c6"/>
+      <text x="16" y="10" font-family="'SF Mono', Consolas, monospace" font-size="10" fill="#94a3b8">TypeScript</text>
+      <circle cx="110" cy="6" r="3" fill="#fbbf24"/>
+      <text x="120" y="10" font-family="'SF Mono', Consolas, monospace" font-size="10" fill="#94a3b8">⑂ 1 Fork</text>
+    </g>
+  </g>
+</svg>
