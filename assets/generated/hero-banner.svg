@@ -1,147 +1,111 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 320" width="100%" height="320" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 300" width="100%" height="300" fill="none">
   <defs>
-    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="obsidian-bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#090d16"/>
-      <stop offset="50%" stop-color="#0b1120"/>
-      <stop offset="100%" stop-color="#05070e"/>
+      <stop offset="60%" stop-color="#0b1120"/>
+      <stop offset="100%" stop-color="#060911"/>
     </linearGradient>
-    <linearGradient id="accent-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8"/>
-      <stop offset="50%" stop-color="#818cf8"/>
-      <stop offset="100%" stop-color="#c084fc"/>
+    <linearGradient id="classy-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e2b170" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.5"/>
     </linearGradient>
-    <linearGradient id="border-glow" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.6"/>
-      <stop offset="50%" stop-color="#06b6d4" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#10b981" stop-opacity="0.6"/>
+    <linearGradient id="gold-text" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#fdf4dc"/>
+      <stop offset="100%" stop-color="#e2b170"/>
     </linearGradient>
-    <filter id="glow-light" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <pattern id="cyber-grid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1e293b" stroke-width="0.75" stroke-opacity="0.35"/>
-    </pattern>
     <style>
-      .title-name { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 34px; font-weight: 800; fill: #ffffff; letter-spacing: -0.5px; }
-      .badge-text { font-family: 'SF Mono', Consolas, 'Fira Code', Menlo, monospace; font-size: 11px; font-weight: 600; fill: #38bdf8; letter-spacing: 1px; }
-      .sub-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; fill: #94a3b8; font-weight: 400; }
-      .hud-text { font-family: 'SF Mono', Consolas, 'Fira Code', Menlo, monospace; font-size: 12px; fill: #10b981; }
-      .tag-pill { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; font-weight: 600; fill: #e2e8f0; }
-      
-      @keyframes pulseGlow {
-        0% { opacity: 0.4; }
-        50% { opacity: 0.9; }
-        100% { opacity: 0.4; }
-      }
-      @keyframes blink {
-        0%, 100% { opacity: 1; }
-        50% { opacity: 0; }
-      }
-      .cursor-blink { animation: blink 1s infinite; }
-      .pulse-beacon { animation: pulseGlow 3s ease-in-out infinite; }
+      .hero-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 34px; font-weight: 800; fill: url(#gold-text); letter-spacing: -0.5px; }
+      .hero-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 15px; fill: #cbd5e1; font-weight: 400; }
+      .pill-mono { font-family: 'SF Mono', Consolas, 'Fira Code', Menlo, monospace; font-size: 11px; font-weight: 600; letter-spacing: 0.8px; }
+      .term-code { font-family: 'SF Mono', Consolas, Menlo, monospace; font-size: 13px; fill: #e2b170; }
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+      .cursor { animation: blink 1s infinite; fill: #e2b170; }
+      @keyframes subtlePulse { 0%, 100% { opacity: 0.7; } 50% { opacity: 1; } }
+      .pulse-dot { animation: subtlePulse 2.5s ease-in-out infinite; }
     </style>
   </defs>
 
-  <!-- Container Box with Rounded Edges -->
-  <rect x="2" y="2" width="916" height="316" rx="16" fill="url(#bg-grad)"/>
-  <rect x="2" y="2" width="916" height="316" rx="16" fill="url(#cyber-grid)"/>
-  <rect x="2" y="2" width="916" height="316" rx="16" stroke="url(#border-glow)" stroke-width="1.5"/>
+  <!-- Container Box -->
+  <rect x="2" y="2" width="916" height="296" rx="16" fill="url(#obsidian-bg)"/>
+  <rect x="2" y="2" width="916" height="296" rx="16" stroke="url(#classy-border)" stroke-width="1.2"/>
 
-  <!-- Top Ambient Corner Highlights -->
-  <circle cx="150" cy="50" r="140" fill="#6366f1" opacity="0.12" filter="url(#glow-light)"/>
-  <circle cx="820" cy="180" r="160" fill="#06b6d4" opacity="0.10" filter="url(#glow-light)"/>
-  <circle cx="450" cy="300" r="120" fill="#10b981" opacity="0.08" filter="url(#glow-light)"/>
+  <!-- Subtle Ambient Glows -->
+  <circle cx="180" cy="40" r="160" fill="#e2b170" opacity="0.05"/>
+  <circle cx="820" cy="200" r="160" fill="#38bdf8" opacity="0.05"/>
 
   <!-- Top Status Bar HUD -->
   <g transform="translate(36, 26)">
-    <!-- Terminal circles -->
-    <circle cx="0" cy="6" r="4.5" fill="#ef4444" opacity="0.8"/>
-    <circle cx="14" cy="6" r="4.5" fill="#f59e0b" opacity="0.8"/>
-    <circle cx="28" cy="6" r="4.5" fill="#10b981" opacity="0.8"/>
+    <circle cx="0" cy="6" r="4" fill="#64748b" opacity="0.5"/>
+    <circle cx="12" cy="6" r="4" fill="#64748b" opacity="0.5"/>
+    <circle cx="24" cy="6" r="4" fill="#e2b170" opacity="0.8"/>
 
-    <g transform="translate(56, -4)">
-      <rect x="0" y="0" width="168" height="22" rx="11" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-      <circle cx="12" cy="11" r="3.5" fill="#10b981" class="pulse-beacon"/>
-      <text x="23" y="15" class="badge-text" fill="#10b981">CORE STATUS: ACTIVE</text>
+    <g transform="translate(48, -4)">
+      <rect x="0" y="0" width="180" height="22" rx="11" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <circle cx="12" cy="11" r="3" fill="#10b981" class="pulse-dot"/>
+      <text x="22" y="15" class="pill-mono" fill="#e2e8f0">STATUS: GROWING &amp; CODING</text>
     </g>
 
     <g transform="translate(680, -4)">
-      <rect x="0" y="0" width="160" height="22" rx="11" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-      <text x="14" y="15" class="hud-text">SYS://TELEMETRY_OK</text>
+      <rect x="0" y="0" width="168" height="22" rx="11" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="14" y="15" class="pill-mono" fill="#94a3b8">MODE: CONTINUOUS LEARNING</text>
     </g>
   </g>
 
   <!-- Hero Main Body -->
-  <g transform="translate(40, 84)">
+  <g transform="translate(40, 80)">
     <!-- Pill Greeting -->
-    <rect x="0" y="0" width="220" height="26" rx="13" fill="#1e1b4b" stroke="#4338ca" stroke-width="1"/>
-    <text x="14" y="17" class="badge-text" fill="#c084fc">👋 ARCHITECT &amp; ENGINEER</text>
+    <rect x="0" y="0" width="220" height="26" rx="13" fill="#1c1917" stroke="#44403c" stroke-width="1"/>
+    <text x="14" y="17" class="pill-mono" fill="#e2b170">✦ ASPIRING SOFTWARE DEVELOPER</text>
 
     <!-- Name Heading -->
-    <text x="0" y="66" class="title-name">
+    <text x="0" y="66" class="hero-title">
       Pritam Sharma
-      <tspan fill="#38bdf8" font-size="28" font-weight="400"> (Param198-sharma)</tspan>
     </text>
 
-    <!-- Subtitle / Mission -->
-    <text x="0" y="98" class="sub-title">
-      Full-Stack Systems Engineer &amp; Mission-Critical Software Architect
+    <!-- Subtitle -->
+    <text x="0" y="96" class="hero-sub">
+      Learning Data Structures &amp; Algorithms • Modern Frontend • Exploring AI &amp; Machine Learning
     </text>
 
-    <!-- Terminal typing simulator box -->
-    <g transform="translate(0, 118)">
-      <rect x="0" y="0" width="560" height="42" rx="8" fill="#030712" stroke="#1e293b" stroke-width="1.2"/>
-      <text x="16" y="26" font-family="'SF Mono', Consolas, monospace" font-size="13" fill="#38bdf8">
-        &gt; stack: <tspan fill="#f1f5f9">TypeScript • Python • Next.js • Cloud • Cyber-Telemetry</tspan><tspan fill="#06b6d4" class="cursor-blink">_</tspan>
+    <!-- Terminal typing box -->
+    <g transform="translate(0, 114)">
+      <rect x="0" y="0" width="600" height="42" rx="8" fill="#05070d" stroke="#1e293b" stroke-width="1"/>
+      <text x="16" y="26" class="term-code">
+        &gt; current_focus: <tspan fill="#f1f5f9">DSA (Problem Solving) • Modern React &amp; UI • Applied AI/ML</tspan><tspan class="cursor">_</tspan>
       </text>
     </g>
 
-    <!-- Technology Pills Row -->
-    <g transform="translate(0, 178)">
-      <!-- Pill 1 -->
+    <!-- Learning Track Badges -->
+    <g transform="translate(0, 172)">
       <g transform="translate(0, 0)">
-        <rect x="0" y="0" width="128" height="24" rx="6" fill="#172554" stroke="#2563eb" stroke-width="0.8"/>
-        <text x="12" y="16" class="tag-pill" fill="#93c5fd">⚡ High Concurrency</text>
+        <rect x="0" y="0" width="138" height="24" rx="6" fill="#1e1b4b" stroke="#3730a3" stroke-width="0.8"/>
+        <text x="12" y="16" class="pill-mono" fill="#c7d2fe">🧠 DSA &amp; Algorithms</text>
       </g>
-      <!-- Pill 2 -->
-      <g transform="translate(136, 0)">
-        <rect x="0" y="0" width="134" height="24" rx="6" fill="#1e1b4b" stroke="#4f46e5" stroke-width="0.8"/>
-        <text x="12" y="16" class="tag-pill" fill="#c7d2fe">🛡️ Cyber Telemetry</text>
+      <g transform="translate(148, 0)">
+        <rect x="0" y="0" width="144" height="24" rx="6" fill="#0c4a6e" stroke="#0284c7" stroke-width="0.8"/>
+        <text x="12" y="16" class="pill-mono" fill="#bae6fd">🎨 Frontend Crafting</text>
       </g>
-      <!-- Pill 3 -->
-      <g transform="translate(278, 0)">
-        <rect x="0" y="0" width="132" height="24" rx="6" fill="#064e3b" stroke="#059669" stroke-width="0.8"/>
-        <text x="12" y="16" class="tag-pill" fill="#a7f3d0">🌐 Spatial Systems</text>
+      <g transform="translate(302, 0)">
+        <rect x="0" y="0" width="146" height="24" rx="6" fill="#2e1065" stroke="#7e22ce" stroke-width="0.8"/>
+        <text x="12" y="16" class="pill-mono" fill="#f5d0fe">🤖 AI &amp; Machine Learning</text>
       </g>
-      <!-- Pill 4 -->
-      <g transform="translate(418, 0)">
-        <rect x="0" y="0" width="144" height="24" rx="6" fill="#31104b" stroke="#9333ea" stroke-width="0.8"/>
-        <text x="12" y="16" class="tag-pill" fill="#f0abfc">🚀 Real-Time Defense</text>
+      <g transform="translate(458, 0)">
+        <rect x="0" y="0" width="142" height="24" rx="6" fill="#1c1917" stroke="#78350f" stroke-width="0.8"/>
+        <text x="12" y="16" class="pill-mono" fill="#fde68a">🚀 Software Dev Journey</text>
       </g>
     </g>
   </g>
 
-  <!-- Right Side Interactive Graphic / Compass Radar Icon -->
-  <g transform="translate(670, 78)">
-    <circle cx="100" cy="100" r="92" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
-    <circle cx="100" cy="100" r="70" fill="none" stroke="#334155" stroke-width="1" stroke-dasharray="4,4"/>
-    <circle cx="100" cy="100" r="46" fill="none" stroke="#0284c7" stroke-width="1.2" stroke-dasharray="2,3"/>
-    <circle cx="100" cy="100" r="22" fill="#0369a1" fill-opacity="0.2" stroke="#38bdf8" stroke-width="1.5"/>
+  <!-- Right Geometric Minimalist Crest -->
+  <g transform="translate(710, 80)">
+    <circle cx="80" cy="80" r="76" fill="#0a0f1d" stroke="#1e293b" stroke-width="1"/>
+    <circle cx="80" cy="80" r="56" fill="none" stroke="#e2b170" stroke-width="0.8" stroke-dasharray="3,3" opacity="0.6"/>
+    <circle cx="80" cy="80" r="36" fill="none" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2,2"/>
+    <circle cx="80" cy="80" r="16" fill="#e2b170" fill-opacity="0.15" stroke="#e2b170" stroke-width="1.2"/>
+    <circle cx="80" cy="80" r="4" fill="#ffffff"/>
     
-    <!-- Crosshairs -->
-    <line x1="8" y1="100" x2="192" y2="100" stroke="#1e293b" stroke-width="1"/>
-    <line x1="100" y1="8" x2="100" y2="192" stroke="#1e293b" stroke-width="1"/>
-    
-    <!-- Radar blips -->
-    <circle cx="75" cy="65" r="4" fill="#38bdf8" filter="url(#glow-light)"/>
-    <circle cx="135" cy="85" r="3.5" fill="#10b981" filter="url(#glow-light)"/>
-    <circle cx="120" cy="140" r="3" fill="#c084fc" filter="url(#glow-light)"/>
-    <circle cx="100" cy="100" r="4" fill="#ffffff"/>
-
-    <text x="100" y="210" text-anchor="middle" font-family="'SF Mono', Consolas, monospace" font-size="10" fill="#64748b" letter-spacing="1.5">RADAR // TELEMETRY</text>
+    <text x="80" y="178" text-anchor="middle" class="pill-mono" fill="#64748b" font-size="10">LEARNING CADENCE</text>
   </g>
 </svg>

@@ -1,42 +1,42 @@
 <div align="center">
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- 1. ANIMATED HERO BANNER                                            -->
+<!-- 1. CLASSY HERO BANNER & DEVELOPER IDENTITY                         -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <a href="https://github.com/Param198-sharma">
-  <img src="./assets/generated/hero-banner.svg" alt="Pritam Sharma - Full Stack Systems Architect & Engineer Dashboard" width="100%" />
+  <img src="./assets/generated/hero-banner.svg" alt="Pritam Sharma - Aspiring Software Developer" width="100%" />
 </a>
 
 <br/>
 
-<!-- Dynamic Typing Header Sub-Bar -->
+<!-- Dynamic Typing Animation with Classy Champagne Gold & Sapphire -->
 <a href="https://github.com/Param198-sharma">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Full-Stack+Systems+Engineer+%26+Software+Architect;Specializing+in+High-Concurrency+Distributed+Platforms;Building+Mission-Critical+Cyber-Telemetry+%26+Disaster+Engines;Passionate+about+Spatial+Decision+Systems+%26+Modern+Web" alt="Dynamic Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2800&pause=1000&color=E2B170&center=true&vCenter=true&width=750&lines=Aspiring+Software+Developer;Diving+Deep+into+Data+Structures+%26+Algorithms;Learning+Modern+Frontend+Craftsmanship;Exploring+AI+%26+Machine+Learning;Building+Clean%2C+Scalable+Code+Every+Day" alt="Dynamic Typing SVG" />
 </a>
 
 <br/>
 
-<!-- Visitor Counter & Quick Stats Badges -->
+<!-- Classy Telemetry Badges -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Param198-sharma&label=TELEMETRY+VISITS&color=0ea5e9&style=for-the-badge&logo=eye" alt="Telemetry Visitor Counter" />
-  <img src="https://img.shields.io/badge/STATUS-OPERATIONAL%2024%2F7-10b981?style=for-the-badge&logo=statuspage&logoColor=white" alt="System Status" />
-  <img src="https://img.shields.io/badge/FOCUS-MISSION--CRITICAL%20SYSTEMS-8b5cf6?style=for-the-badge&logo=target&logoColor=white" alt="Focus Area" />
+  <img src="https://komarev.com/ghpvc/?username=Param198-sharma&label=PROFILE+VIEWS&color=c29b63&style=for-the-badge&logo=eye" alt="Telemetry Visitor Counter" />
+  <img src="https://img.shields.io/badge/STATUS-CONTINUOUS%20LEARNING-0284c7?style=for-the-badge&logo=codeforces&logoColor=white" alt="Learning Status" />
+  <img src="https://img.shields.io/badge/ASPIRATION-SOFTWARE%20DEVELOPER-e2b170?style=for-the-badge&logo=target&logoColor=black" alt="Aspiration" />
 </p>
 
-<!-- Social & Professional Telemetry Links -->
+<!-- Social & Communication Links -->
 <p align="center">
   <a href="https://github.com/Param198-sharma?tab=repositories" target="_blank">
-    <img src="https://img.shields.io/badge/Repositories-0f172a?style=for-the-badge&logo=github&logoColor=38bdf8" alt="GitHub Repos" />
+    <img src="https://img.shields.io/badge/Repositories-0f172a?style=for-the-badge&logo=github&logoColor=e2b170" alt="GitHub Repos" />
   </a>
   <a href="mailto:pritamsharma@example.com" target="_blank">
-    <img src="https://img.shields.io/badge/Direct_Comms-Mail-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Comms" />
+    <img src="https://img.shields.io/badge/Direct_Comms-Email-334155?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Comms" />
   </a>
   <a href="https://linkedin.com/in/" target="_blank">
-    <img src="https://img.shields.io/badge/Network-LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
+    <img src="https://img.shields.io/badge/Network-LinkedIn-0284c7?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
   </a>
-  <a href="https://github.com/Param198-sharma" target="_blank">
-    <img src="https://img.shields.io/badge/Terminal-Param198--sharma-4f46e5?style=for-the-badge&logo=gnubash&logoColor=white" alt="Terminal" />
+  <a href="https://leetcode.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Practice-LeetCode-d97706?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" />
   </a>
 </p>
 
@@ -45,32 +45,32 @@
 </div>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- 2. INTRODUCTION & CORE INTELLIGENCE                               -->
+<!-- 2. ABOUT ME & CURRENT LEARNING FOCUS                              -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-### 🛰️ Executive Telemetry // System Profile
+### 🧭 About Me // Journey & Core Focus
 
 ```bash
-$ identity --inspect Param198-sharma
+$ info --profile
 ```
 
 <table>
   <tr>
     <td width="65%" valign="top">
       <p>
-        I am <strong>Pritam Sharma</strong>, a Systems Engineer and Full-Stack Architect specialized in constructing resilient, high-concurrency software architectures, national-scale disaster response platforms, and mission-critical cyber defense telemetry systems.
+        Hi, I'm <strong>Pritam Sharma</strong> — an <strong>Aspiring Software Developer</strong> driven by a passion for clean code, solid problem solving, and building intuitive user experiences.
       </p>
       <ul>
-        <li>🔭 <strong>Active Engineering:</strong> Architecting national real-time disaster management & spatial decision engines (<em>DisasterReady India</em>).</li>
-        <li>🛡️ <strong>Cybersecurity & Defense:</strong> Developing automated vulnerability telemetry & surveillance pipelines (<em>TRINETRA Kavach</em>).</li>
-        <li>🔬 <strong>Academic Telemetry:</strong> Engineering smart campus attendance radar suites and performance analytics engines (<em>Class Radar</em>).</li>
-        <li>⚡ <strong>Engineering Philosophy:</strong> Zero unnecessary dependencies, resilient fallbacks, modular micro-architectures, and high-throughput real-time telemetry.</li>
-        <li>📫 <strong>Direct Transmission:</strong> Available for high-impact software engineering, systems design, and technical collaborations.</li>
+        <li>🧠 <strong>Data Structures & Algorithms:</strong> Grinding core algorithmic problem solving, time/space complexity optimization, recursion, graphs, dynamic programming, and data modeling.</li>
+        <li>🎨 <strong>Frontend Craftsmanship:</strong> Mastering responsive UI engineering, state management, modern component design, and engaging frontend experiences.</li>
+        <li>🤖 <strong>Artificial Intelligence & ML:</strong> Exploring intelligent agents, neural networks, machine learning fundamentals, and AI integration into practical software.</li>
+        <li>🌱 <strong>Software Engineering Principles:</strong> Committed to clean architecture, writing maintainable code, test-driven logic, and continuous self-improvement.</li>
+        <li>📫 <strong>Let's Connect:</strong> Eager to collaborate on open-source projects, DSA practice groups, and innovative software builds!</li>
       </ul>
     </td>
     <td width="35%" valign="top" align="center">
       <br/>
-      <img src="https://github-readme-stats.vercel.app/api?username=Param198-sharma&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0f1d&title_color=38bdf8&text_color=94a3b8&icon_color=a855f7" alt="GitHub Live Stats" width="100%"/>
+      <img src="https://github-readme-stats.vercel.app/api?username=Param198-sharma&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0f1d&title_color=e2b170&text_color=94a3b8&icon_color=38bdf8" alt="GitHub Live Stats" width="100%"/>
     </td>
   </tr>
 </table>
@@ -80,10 +80,10 @@ $ identity --inspect Param198-sharma
 </div>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- 3. LIVE GITHUB STATISTICS & PERFORMANCE DASHBOARD                   -->
+<!-- 3. LIVE GITHUB STATISTICS DASHBOARD                                -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-### 📊 Live GitHub Statistics & Core Telemetry
+### 📊 Live GitHub Statistics & Telemetry
 
 <div align="center">
   <img src="./assets/generated/stats-card.svg" alt="Pritam Sharma Live Repository Stats" width="100%" />
@@ -96,12 +96,12 @@ $ identity --inspect Param198-sharma
     <tr>
       <td width="50%" align="center">
         <a href="https://github.com/Param198-sharma">
-          <img src="https://github-readme-streak-stats.herokuapp.com/?user=Param198-sharma&theme=tokyonight&hide_border=true&background=0a0f1d&ring=38bdf8&fire=a855f7&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=64748b" alt="Contribution Streak Analytics" width="100%" />
+          <img src="https://github-readme-streak-stats.herokuapp.com/?user=Param198-sharma&theme=tokyonight&hide_border=true&background=0a0f1d&ring=e2b170&fire=e2b170&currStreakLabel=e2b170&sideLabels=94a3b8&dates=64748b" alt="Contribution Streak Analytics" width="100%" />
         </a>
       </td>
       <td width="50%" align="center">
         <a href="https://github.com/Param198-sharma">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Param198-sharma&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0f1d&title_color=38bdf8&text_color=94a3b8" alt="Top Languages Card" width="100%" />
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Param198-sharma&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0f1d&title_color=e2b170&text_color=94a3b8" alt="Top Languages Card" width="100%" />
         </a>
       </td>
     </tr>
@@ -113,21 +113,13 @@ $ identity --inspect Param198-sharma
 </div>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- 4. CONTRIBUTION HEATMAP & CALENDAR CADENCE                         -->
+<!-- 4. CONTRIBUTION HEATMAP & ACTIVITY CADENCE                         -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-### 📅 Contribution Calendar & Activity Cadence
+### 📅 Contribution Heatmap & Coding Consistency
 
 <div align="center">
-  <img src="./assets/generated/activity-graph.svg" alt="12 Month Contribution Heatmap & Activity Cadence" width="100%" />
-</div>
-
-<br/>
-
-<div align="center">
-  <a href="https://github.com/Param198-sharma">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Param198-sharma&theme=tokyonight" alt="GitHub Profile Summary" width="95%" onerror="this.style.display='none'" />
-  </a>
+  <img src="./assets/generated/activity-graph.svg" alt="12 Month Contribution Heatmap" width="100%" />
 </div>
 
 <div align="center">
@@ -135,10 +127,10 @@ $ identity --inspect Param198-sharma
 </div>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- 5. GITHUB TROPHIES & MILESTONES                                   -->
+<!-- 5. GITHUB TROPHIES & ACHIEVEMENTS                                 -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-### 🏆 Verified GitHub Achievements & Trophies
+### 🏆 GitHub Milestones & Trophies
 
 <div align="center">
   <a href="https://github.com/Param198-sharma">
@@ -151,61 +143,10 @@ $ identity --inspect Param198-sharma
 </div>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- 6. FEATURED REPOSITORIES SHOWCASE                                  -->
+<!-- 6. PROGRAMMING LANGUAGE ANALYTICS                                  -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-### 🚀 Production Repositories & System Showcases
-
-<div align="center">
-  <img src="./assets/generated/repository-cards.svg" alt="Featured Repositories Architecture Cards" width="100%" />
-</div>
-
-<br/>
-
-<table>
-  <thead>
-    <tr>
-      <th align="left">Repository</th>
-      <th align="left">Mission &amp; Scope</th>
-      <th align="center">Tech Stack</th>
-      <th align="center">Role</th>
-      <th align="center">Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>🌐 Wired_Brains-Anvathon-</strong></td>
-      <td><strong>DisasterReady India (आपदा सचेत भारत)</strong>: National real-time disaster management, automated evacuation routing & spatial decision support engine.</td>
-      <td align="center"><code>TypeScript</code> <code>Next.js</code> <code>Docker</code></td>
-      <td align="center"><span style="color:#10b981;">Lead Architect</span></td>
-      <td align="center"><a href="https://github.com/Param198-sharma/Wired_Brains-Anvathon-"><strong>Inspect ↗</strong></a></td>
-    </tr>
-    <tr>
-      <td><strong>🛡️ TRINETRA_TEAM_KAVACH</strong></td>
-      <td><strong>Trinetra Kavach Cyber-Defense</strong>: National defense hackathon platform for automated cyber-telemetry, vulnerability analysis & threat detection.</td>
-      <td align="center"><code>JavaScript</code> <code>Python</code> <code>HTML5</code></td>
-      <td align="center"><span style="color:#a855f7;">Core Engineer</span></td>
-      <td align="center"><a href="https://github.com/Param198-sharma/TRINETRA_TEAM_KAVACH"><strong>Inspect ↗</strong></a></td>
-    </tr>
-    <tr>
-      <td><strong>📡 Class_Radar_Minor_Project</strong></td>
-      <td><strong>Class Radar Academic Telemetry</strong>: High-efficiency student attendance tracking, institutional radar suite & performance diagnostics dashboard.</td>
-      <td align="center"><code>TypeScript</code> <code>React</code> <code>CSS3</code></td>
-      <td align="center"><span style="color:#38bdf8;">Systems Lead</span></td>
-      <td align="center"><a href="https://github.com/Param198-sharma/Class_Radar_Minor_Project"><strong>Inspect ↗</strong></a></td>
-    </tr>
-  </tbody>
-</table>
-
-<div align="center">
-  <img src="./assets/generated/section-divider.svg" width="100%" />
-</div>
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- 7. PROGRAMMING LANGUAGE ANALYTICS                                  -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-
-### 📈 Codebase Language Telemetry & Distribution
+### 📈 Codebase Language Distribution
 
 <div align="center">
   <img src="./assets/generated/languages.svg" alt="Codebase Language Analytics & Distribution" width="100%" />
@@ -216,21 +157,19 @@ $ identity --inspect Param198-sharma
 </div>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- 8. TECHNOLOGY STACK & TOOLING SUITE                                -->
+<!-- 7. TECHNOLOGY STACK & LEARNING TRACK                               -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-### 🛠️ Core Technology Stack & Engineering Arsenal
+### 🛠️ Tech Stack & Active Learning Curriculum
 
 <div align="center">
 
-| Domain | Verified Tooling & Frameworks |
+| Domain | Technologies & Frameworks |
 | :--- | :--- |
-| **Core Languages** | <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white"/> |
-| **Frontend Ecosystem** | <img src="https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/> <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"/> |
-| **Backend & APIs** | <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/> <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/REST_APIs-0284c7?style=for-the-badge&logo=postman&logoColor=white"/> |
-| **Databases & Cache** | <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/> <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white"/> |
-| **DevOps & Infrastructure** | <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/> |
-| **Currently Learning** | <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/> <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white"/> <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white"/> |
+| **Problem Solving & Core** | <img src="https://img.shields.io/badge/Data_Structures-1e293b?style=for-the-badge&logo=codeforces&logoColor=e2b170"/> <img src="https://img.shields.io/badge/Algorithms-1e293b?style=for-the-badge&logo=leetcode&logoColor=e2b170"/> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/> |
+| **Frontend Development** | <img src="https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/> <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/> |
+| **AI & Machine Learning** | <img src="https://img.shields.io/badge/Machine_Learning-1e293b?style=for-the-badge&logo=scikit-learn&logoColor=e2b170"/> <img src="https://img.shields.io/badge/Deep_Learning-1e293b?style=for-the-badge&logo=tensorflow&logoColor=38bdf8"/> <img src="https://img.shields.io/badge/Neural_Networks-0f172a?style=for-the-badge&logo=openai&logoColor=white"/> <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/> |
+| **Tools & Version Control** | <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/> <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/> <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/> |
 
 </div>
 
@@ -239,38 +178,39 @@ $ identity --inspect Param198-sharma
 </div>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- 9. CURRENT FOCUS & MILESTONES                                      -->
+<!-- 8. ACTIVE ROADMAP & GROWTH PATH                                    -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-### 🎯 Current Focus & Active Roadmap
+### 🎯 Active Growth Path & Learning Roadmap
 
 <div align="center">
 
 ```
   ┌─────────────────────────┐      ┌─────────────────────────┐      ┌─────────────────────────┐
-  │  Real-Time Spatial Ops  │ ───► │ Distributed Cyber Mesh  │ ───► │ Production Cloud CI/CD  │
-  │   DisasterReady India   │      │   TRINETRA Telemetry    │      │  Autonomous Telemetry   │
+  │ DSA & Problem Solving   │ ───► │ Frontend Craftsmanship  │ ───► │ Applied AI & ML         │
+  │ Arrays, Trees, Graphs   │      │ Modern React & UI Logic │      │ Models & Intelligent App│
   └─────────────────────────┘      └─────────────────────────┘      └─────────────────────────┘
 ```
 
 </div>
 
-- 🗺️ **High-Concurrency Spatial Routing:** Refining low-latency geospatial clustering algorithms for regional emergency relief.
-- 🔐 **Telemetry Hardening:** Implementing strict access controls, cryptographic validation, and event streaming for telemetry pipelines.
-- ⚙️ **Automated Profile Telemetry:** Continuous daily health checks and automated repository sync via native GitHub Actions.
+- 🧩 **DSA Mastery:** Practicing daily algorithmic puzzles on LeetCode & Codeforces to build strong analytical instincts.
+- 💻 **Frontend Engineering:** Sharpening component architecture, performance optimization, and responsive design systems.
+- 🤖 **AI / ML Foundations:** Exploring supervised/unsupervised learning models, dataset pipelines, and modern AI frameworks.
+- 🚀 **Software Development:** Writing clean, testable, and maintainable software to prepare for high-impact engineering roles.
 
 <div align="center">
   <img src="./assets/generated/section-divider.svg" width="100%" />
 </div>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- 10. CONNECT WITH ME & TRANSMISSION TERMINAL                        -->
+<!-- 9. CONNECT WITH ME                                                 -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-### 📡 Establish Direct Connection
+### 🤝 Connect & Collaborate
 
 <div align="center">
-  <p>Looking to collaborate on groundbreaking open source systems or mission-critical software engineering? Let's connect:</p>
+  <p>I am always excited to discuss algorithms, software engineering, frontend tips, or machine learning ideas. Feel free to reach out:</p>
   
   <p>
     <a href="https://github.com/Param198-sharma">
@@ -286,12 +226,11 @@ $ identity --inspect Param198-sharma
   
   <br/>
 
-  <!-- Footer Telemetry Signature -->
-  <sub>Designed &amp; engineered for <strong>Param198-sharma</strong> • Automated telemetry via GitHub Actions • Dark Aesthetic Engine</sub>
+  <sub>Curated with a classy dark palette • Continuously updated via GitHub Actions</sub>
 
   <br/><br/>
 
-  <a href="#-executive-telemetry--system-profile">
+  <a href="#-about-me--journey--core-focus">
     <img src="https://img.shields.io/badge/RETURN_TO_TOP-▲-1e293b?style=flat-square" alt="Back to Top" />
   </a>
 </div>

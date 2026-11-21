@@ -1,78 +1,73 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 230" width="100%" height="230" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 220" width="100%" height="220" fill="none">
   <defs>
     <linearGradient id="lang-card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0a0f1d"/>
-      <stop offset="100%" stop-color="#070a14"/>
+      <stop offset="100%" stop-color="#060911"/>
     </linearGradient>
   </defs>
 
-  <rect x="2" y="2" width="916" height="226" rx="14" fill="url(#lang-card-bg)" stroke="#1e293b" stroke-width="1.2"/>
+  <rect x="2" y="2" width="916" height="216" rx="14" fill="url(#lang-card-bg)" stroke="#1e293b" stroke-width="1.2"/>
 
-  <!-- Header -->
-  <g transform="translate(30, 28)">
-    <text x="0" y="10" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#f8fafc">CODEBASE LANGUAGE ANALYTICS &amp; DISTRIBUTION</text>
-    <text x="860" y="10" font-family="'SF Mono', Consolas, monospace" font-size="11" fill="#38bdf8" text-anchor="end">LIVE AGGREGATION</text>
+  <g transform="translate(30, 26)">
+    <text x="0" y="10" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#f8fafc">CODEBASE LANGUAGE ANALYTICS &amp; BREAKDOWN</text>
+    <text x="860" y="10" font-family="'SF Mono', Consolas, monospace" font-size="11" fill="#e2b170" text-anchor="end">LIVE TELEMETRY</text>
   </g>
 
-  <!-- Progress Bar Base -->
-  <rect x="30" y="65" width="860" height="14" rx="3" fill="#1e293b"/>
-  <!-- Progress Bar Segments -->
-  <rect x="30" y="65" width="743" height="14" fill="#f7df1e" rx="2"/>
-    <rect x="773" y="65" width="60" height="14" fill="#3178c6" rx="2"/>
-    <rect x="833" y="65" width="47" height="14" fill="#e34c26" rx="2"/>
-    <rect x="880" y="65" width="9" height="14" fill="#3572A5" rx="2"/>
-    <rect x="889" y="65" width="4" height="14" fill="#563d7c" rx="2"/>
+  <rect x="30" y="62" width="860" height="12" rx="3" fill="#1e293b"/>
+  <rect x="30" y="62" width="743" height="12" fill="#e2b170" rx="2"/>
+    <rect x="773" y="62" width="60" height="12" fill="#3178c6" rx="2"/>
+    <rect x="833" y="62" width="47" height="12" fill="#e34c26" rx="2"/>
+    <rect x="880" y="62" width="9" height="12" fill="#38bdf8" rx="2"/>
+    <rect x="889" y="62" width="4" height="12" fill="#818cf8" rx="2"/>
 
-  <!-- Donut Chart -->
   <g>
-    <path d="M 120.0 60.0 A 70 70 0 1 1 67.33342312719981 83.88892019805405 L 85.39053519787416 99.69843327300694 A 46 46 0 1 0 120.0 84.0 Z" fill="#f7df1e" stroke="#0a0f1d" stroke-width="2"/>
-    <path d="M 67.33342312719981 83.88892019805405 A 70 70 0 0 1 91.94126653405156 65.86960567494641 L 101.56140372237674 87.85716944353621 A 46 46 0 0 0 85.39053519787416 99.69843327300694 Z" fill="#3178c6" stroke="#0a0f1d" stroke-width="2"/>
-    <path d="M 91.94126653405156 65.86960567494641 A 70 70 0 0 1 115.18082088780272 60.16608622821887 L 116.83311086912751 84.10914237854382 A 46 46 0 0 0 101.56140372237674 87.85716944353621 Z" fill="#e34c26" stroke="#0a0f1d" stroke-width="2"/>
-    <path d="M 115.18082088780272 60.16608622821887 A 70 70 0 0 1 119.68699273632728 60.00069981454894 L 119.79430951244365 84.00045987813216 A 46 46 0 0 0 116.83311086912751 84.10914237854382 Z" fill="#3572A5" stroke="#0a0f1d" stroke-width="2"/>
-    <path d="M 119.68699273632728 60.00069981454894 A 70 70 0 0 1 119.87018990391859 60.00012036196809 L 119.91469622257507 84.0000790950076 A 46 46 0 0 0 119.79430951244365 84.00045987813216 Z" fill="#563d7c" stroke="#0a0f1d" stroke-width="2"/>
-    <circle cx="120" cy="130" r="38" fill="#0a0f1d"/>
-    <text x="120" y="126" text-anchor="middle" font-family="'SF Mono', Consolas, monospace" font-size="11" font-weight="700" fill="#38bdf8">LANG</text>
-    <text x="120" y="142" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="9" fill="#94a3b8">DISTRIBUTION</text>
+    <path d="M 120.0 60.0 A 66 66 0 1 1 70.34294180564552 82.52383904387955 L 86.89529453709702 97.01589269591969 A 44 44 0 1 0 120.0 82.0 Z" fill="#e2b170" stroke="#0a0f1d" stroke-width="2"/>
+    <path d="M 70.34294180564552 82.52383904387955 A 66 66 0 0 1 93.54462273210576 65.53419963637805 L 102.36308182140384 85.68946642425203 A 44 44 0 0 0 86.89529453709702 97.01589269591969 Z" fill="#3178c6" stroke="#0a0f1d" stroke-width="2"/>
+    <path d="M 93.54462273210576 65.53419963637805 A 66 66 0 0 1 115.45620255135685 60.15659558660637 L 116.97080170090457 82.10439705773757 A 44 44 0 0 0 102.36308182140384 85.68946642425203 Z" fill="#e34c26" stroke="#0a0f1d" stroke-width="2"/>
+    <path d="M 115.45620255135685 60.15659558660637 A 66 66 0 0 1 119.70487886568 60.000659825146144 L 119.80325257712 82.00043988343077 A 44 44 0 0 0 116.97080170090457 82.10439705773757 Z" fill="#38bdf8" stroke="#0a0f1d" stroke-width="2"/>
+    <path d="M 119.70487886568 60.000659825146144 A 66 66 0 0 1 119.87760762369467 60.00011348414134 L 119.91840508246311 82.00007565609422 A 44 44 0 0 0 119.80325257712 82.00043988343077 Z" fill="#818cf8" stroke="#0a0f1d" stroke-width="2"/>
+    <circle cx="120" cy="126" r="36" fill="#0a0f1d"/>
+    <text x="120" y="124" text-anchor="middle" font-family="'SF Mono', Consolas, monospace" font-size="10" font-weight="700" fill="#e2b170">LANG</text>
+    <text x="120" y="138" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="9" fill="#94a3b8">DISTRIBUTION</text>
   </g>
 
-  <!-- Legend Items -->
   
-        <g transform="translate(240, 100)">
-          <circle cx="8" cy="8" r="6" fill="#f7df1e"/>
-          <text x="24" y="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">JavaScript</text>
-          <text x="140" y="12" font-family="'SF Mono', Consolas, monospace" font-size="13" font-weight="700" fill="#38bdf8">86.4%</text>
+        <g transform="translate(240, 96)">
+          <circle cx="8" cy="8" r="5" fill="#e2b170"/>
+          <text x="24" y="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">JavaScript</text>
+          <text x="140" y="12" font-family="'SF Mono', Consolas, monospace" font-size="13" font-weight="700" fill="#e2b170">86.4%</text>
           <text x="210" y="12" font-family="'SF Mono', Consolas, monospace" font-size="11" fill="#64748b">(17.19 MB)</text>
         </g>
         
     
-        <g transform="translate(240, 132)">
-          <circle cx="8" cy="8" r="6" fill="#3178c6"/>
-          <text x="24" y="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">TypeScript</text>
-          <text x="140" y="12" font-family="'SF Mono', Consolas, monospace" font-size="13" font-weight="700" fill="#38bdf8">7.0%</text>
+        <g transform="translate(240, 128)">
+          <circle cx="8" cy="8" r="5" fill="#3178c6"/>
+          <text x="24" y="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">TypeScript</text>
+          <text x="140" y="12" font-family="'SF Mono', Consolas, monospace" font-size="13" font-weight="700" fill="#e2b170">7.0%</text>
           <text x="210" y="12" font-family="'SF Mono', Consolas, monospace" font-size="11" fill="#64748b">(1.39 MB)</text>
         </g>
         
     
-        <g transform="translate(240, 164)">
-          <circle cx="8" cy="8" r="6" fill="#e34c26"/>
-          <text x="24" y="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">HTML</text>
-          <text x="140" y="12" font-family="'SF Mono', Consolas, monospace" font-size="13" font-weight="700" fill="#38bdf8">5.5%</text>
+        <g transform="translate(240, 160)">
+          <circle cx="8" cy="8" r="5" fill="#e34c26"/>
+          <text x="24" y="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">HTML</text>
+          <text x="140" y="12" font-family="'SF Mono', Consolas, monospace" font-size="13" font-weight="700" fill="#e2b170">5.5%</text>
           <text x="210" y="12" font-family="'SF Mono', Consolas, monospace" font-size="11" fill="#64748b">(1.09 MB)</text>
         </g>
         
     
-        <g transform="translate(580, 100)">
-          <circle cx="8" cy="8" r="6" fill="#3572A5"/>
-          <text x="24" y="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">Python</text>
-          <text x="140" y="12" font-family="'SF Mono', Consolas, monospace" font-size="13" font-weight="700" fill="#38bdf8">1.0%</text>
+        <g transform="translate(580, 96)">
+          <circle cx="8" cy="8" r="5" fill="#38bdf8"/>
+          <text x="24" y="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">Python</text>
+          <text x="140" y="12" font-family="'SF Mono', Consolas, monospace" font-size="13" font-weight="700" fill="#e2b170">1.0%</text>
           <text x="210" y="12" font-family="'SF Mono', Consolas, monospace" font-size="11" fill="#64748b">(208.8 KB)</text>
         </g>
         
     
-        <g transform="translate(580, 132)">
-          <circle cx="8" cy="8" r="6" fill="#563d7c"/>
-          <text x="24" y="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">CSS</text>
-          <text x="140" y="12" font-family="'SF Mono', Consolas, monospace" font-size="13" font-weight="700" fill="#38bdf8">0.0%</text>
+        <g transform="translate(580, 128)">
+          <circle cx="8" cy="8" r="5" fill="#818cf8"/>
+          <text x="24" y="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">CSS</text>
+          <text x="140" y="12" font-family="'SF Mono', Consolas, monospace" font-size="13" font-weight="700" fill="#e2b170">0.0%</text>
           <text x="210" y="12" font-family="'SF Mono', Consolas, monospace" font-size="11" fill="#64748b">(8.5 KB)</text>
         </g>
         
