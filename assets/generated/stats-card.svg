@@ -19,7 +19,7 @@
   <g transform="translate(28, 24)">
     <circle cx="8" cy="8" r="3.5" fill="#e2b170"/>
     <text x="22" y="12" class="header-title">LIVE REPOSITORY &amp; PROFILE TELEMETRY</text>
-    <text x="860" y="12" class="header-sub" text-anchor="end">SYNC: 2026-11-26 07:20 UTC</text>
+    <text x="860" y="12" class="header-sub" text-anchor="end">SYNC: 2026-11-27 07:15 UTC</text>
   </g>
 
   <line x1="28" y1="46" x2="892" y2="46" stroke="#1e293b" stroke-width="1"/>
